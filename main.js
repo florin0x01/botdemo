@@ -21,4 +21,4 @@ Bot.setRefreshTime(5 * 1000)
 Bot.subscribe('https://api.deversifi.com/market-data/ws', 'ETH:USDT')
 Strategy.buyLowSellHigh()
 
-setInterval(Bot.printState, 10 * 1000)
+setInterval(Bot.printState, 30 * 1000)
